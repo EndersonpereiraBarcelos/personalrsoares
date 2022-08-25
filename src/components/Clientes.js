@@ -1,7 +1,8 @@
 export default function Clientes() {
   return (
     <div>
-      <h2>clientes</h2>
+      <h1>Nossos Clientes </h1>
+      <p>carrosel com foto do cliente e experiencia dele(a) 4 clientes</p>
     </div>
   );
 }
