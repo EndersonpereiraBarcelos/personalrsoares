@@ -17,7 +17,7 @@ export default function Planos() {
         Nesse plano o aluno terá direito a 3 meses de acompanhamento, 1
         prescrição de treino individualizada a cada mês, suporte via whats app e
         o treino enviado pelo app Ptrainer com mais de 300 vídeos de exercícios
-        disponíveis. Bônus: Um treino "CardioFire" pra ser feito em qualquer
+        disponíveis. Bônus: Um treino pra ser feito em qualquer
         lugar + 1 link de desconto no primeiro mês por 4,99 na academia digital
         Free Fitness (A qual sou sócio-afiliado)
       </p>
@@ -28,7 +28,7 @@ export default function Planos() {
         Nesse plano o aluno terá direito a 6 meses de acompanhamento, 1
         prescrição de treino individualizada a cada mês, suporte via whats app e
         o treino enviado pelo app Ptrainer com mais de 300 vídeos de exercícios
-        disponíveis. Bônus: Um treino "Cardio Fire" pra ser feito em qualquer
+        disponíveis. Bônus: Um treino pra ser feito em qualquer
         lugar + 1 link de desconto no primeiro mês por 4,99, na academia digital
         Free Fitness (A qual sou sócio-afiliado).
       </p>
