@@ -1,13 +1,17 @@
 import React from "react";
-import img1 from "../img/antes_depois.png";
-import img2 from "../img/lorena_ricardo.png";
+import Image from "next/image";
+import Patriocinio from "../public/img/Patriocinio.png";
 
 import styles from "../styles/Principal.module.css";
 
 export default function Principal() {
   return (
     <div className={styles.textoall}>
-      <img className={styles.fotoAntesDeepois} src={img1} />
+      <Image
+        className={styles.Patriocinio}
+        src={Patriocinio}
+        alt="Patriocinio"
+      />
       <h1 className={styles.tittle}>
         Obtenha treinos com resultados reais e conquiste o físco sonhado como
         sempre sonhou.

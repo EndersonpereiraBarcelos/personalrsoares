@@ -1,0 +1,24 @@
+.textoall {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tittle {
+  font-size: 3.3rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.subtittle {
+  font-size: 2rem;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.buttoncompra {
+}
+
+.Patriocinio {
+  height: 20px;
+  padding: 20px;
+}

@@ -1,7 +1,11 @@
+import Image from "next/image";
+import Patriocinio from "../public/img/Patriocinio.png";
+
 export default function Sobre() {
   return (
     <div>
       <h1>Sobre mim</h1>
+      <Image src={Patriocinio} alt="Patriocinio" />
       <p>
         Olá, Sou Ricardo soares, Professor de educação física/Personal
         trainer... Atuo 3 anos com treinamento de musculação de diversas
