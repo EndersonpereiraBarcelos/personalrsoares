@@ -1,11 +1,12 @@
 import Image from "next/image";
 import Patriocinio from "../public/img/Patriocinio.png";
+import styles from "../styles/Sobre.module.css";
 
 export default function Sobre() {
   return (
-    <div>
+    <div className={styles.sobreall}>
+      <Image src={Patriocinio} alt="Patriocinio" placeholder="blur" />
       <h1>Sobre mim</h1>
-      <Image src={Patriocinio} alt="Patriocinio" />
       <p>
         Olá, Sou Ricardo soares, Professor de educação física/Personal
         trainer... Atuo 3 anos com treinamento de musculação de diversas
@@ -13,7 +14,7 @@ export default function Sobre() {
         funcionalidade e estética corporal. Especialista no trabalho de
         Emagrecimento e Hipertrofia
       </p>
-      <button>Contrate Plano</button>
+      <button className={styles.buttoncompra}>Contrate Plano</button>
     </div>
   );
 }

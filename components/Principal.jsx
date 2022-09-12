@@ -1,7 +1,5 @@
-import React from "react";
 import Image from "next/image";
 import Patriocinio from "../public/img/Patriocinio.png";
-
 import styles from "../styles/Principal.module.css";
 
 export default function Principal() {
@@ -11,6 +9,7 @@ export default function Principal() {
         className={styles.Patriocinio}
         src={Patriocinio}
         alt="Patriocinio"
+        placeholder="blur"
       />
       <h1 className={styles.tittle}>
         Obtenha treinos com resultados reais e conquiste o físco sonhado como
