@@ -1,23 +1,27 @@
 .textoall {
   font-size: 1.1rem;
   padding: 0.5rem;
-  vertical-align: baseline;
   display: flex;
+  align-items: center;
 }
 
 .tittle {
   vertical-align: center;
+  display: flex;
+  text-align: center;
 }
 
 .subtittle {
   align-items: center;
+  display: flex;
+  text-align: justify;
 }
 
 .buttoncompra {
-  width: 190px;
-  height: 45px;
-  align-items: center;
-  text-align: justify;
+  width: 150px;
+  height: 40px;
+  align-items: baseline;
+  text-align: center;
   position: relative;
   /* flex para alinhar conteúdo*/
   display: flex;
