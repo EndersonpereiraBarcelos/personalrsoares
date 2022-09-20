@@ -5,6 +5,18 @@
   align-items: center;
 }
 
+.tittleSobre {
+  vertical-align: center;
+  display: flex;
+  text-align: center;
+}
+
+.txtsobre {
+  align-items: center;
+  display: flex;
+  text-align: justify;
+}
+
 .buttoncompra {
   width: 150px;
   height: 40px;

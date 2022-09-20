@@ -1,0 +1,14 @@
+.tudoPasso {
+  display: inline-block;
+  padding: 0.5rem;
+  height: 0.5rem;
+  justify-content: space-evenly;
+}
+
+.tittlePasso {
+  text-align: center;
+}
+
+.h3 {
+  text-align: center;
+}
