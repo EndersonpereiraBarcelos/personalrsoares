@@ -5,12 +5,7 @@ import styles from "../styles/Principal.module.css";
 export default function Principal() {
   return (
     <div className={styles.textoall}>
-      <Image
-        className={styles.Patriocinio}
-        src={Patriocinio}
-        alt="Patriocinio"
-        placeholder="blur"
-      />
+      <Image src={Patriocinio} alt="Patriocinio" placeholder="blur" />
       <h1 className={styles.tittle}>
         Obtenha treinos com resultados reais e conquiste o físco sonhado como
         sempre sonhou.
