@@ -6,10 +6,10 @@ export default function Principal() {
   return (
     <div className={styles.textoall}>
       <Image src={Patriocinio} alt="Patriocinio" placeholder="blur" />
-      <h1 className={styles.tittle}>
-        Obtenha treinos com resultados reais e conquiste o físco sonhado como
+      <h2 className={styles.tittle}>
+      Obtenha treinos com resultados reais e conquiste o físco sonhado como
         sempre sonhou.
-      </h1>
+      </h2>
 
       <p className={styles.subtittle}>
         Há 3 anos acompanho a evolução dos alunos relacionados a constancia
