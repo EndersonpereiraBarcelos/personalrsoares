@@ -13,8 +13,6 @@ const Wrapper2 = styled.section`
   text-align: justify;
   text-align: center;
   font-size: 1rem;
-  
-  
 `;
 
 export default function planos() {

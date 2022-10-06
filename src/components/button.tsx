@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-export default function Button() {
-  const [count, setCount] = useState(0);
+export default function Button (){
+  return(
 
-  const incrementCount = () => {};
-
-  return (
     <div>
-      <h1>{count}</h1>
+
+      <button><a href="https://www.rivalry.com/pt/esports" >CLick aqui</a></button>
+
     </div>
-  );
+
+  )
 }

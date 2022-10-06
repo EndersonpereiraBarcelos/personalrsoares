@@ -8,7 +8,7 @@ import Foto2 from "../public/personalrsoares/banner01.png";
 
 import Duvidas from "./duvidas";
 import Planos from "./planos";
-import Teste from "../src/components/button";
+import Button from "../src/components/button";
 
 const Banner = styled.h3`
   padding: 1.5em;
@@ -23,6 +23,9 @@ const Wrapper = styled.section`
   padding: 0.9em;
   text-align: right;
   background: papayawhip;
+
+  align-items: center;
+  vertical-align: text-top;
 `;
 const Wrapper2 = styled.section`
   padding: 0.9em;
@@ -60,7 +63,7 @@ export default function Home() {
           de treinos focados, potencializando seus resultados com treinos
           especificos e garantir sua constancia facilitando sua vida.
         </AlingText>
-        <button>contrate agora</button>
+        <Button>contrate agora</Button>
       </Wrapper>
       <title>personalr.soares</title>
 

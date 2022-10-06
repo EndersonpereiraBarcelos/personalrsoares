@@ -38,7 +38,7 @@ export default function duvidas() {
           <h3>Compra</h3>
           <AlignSubText>
             Na contratação de uns dos planos você sera redirecionado, a uma
-            pagina de compra dos planos da mfit Personal. Após afetuar <br/> o
+            pagina de compra dos planos da mfit Personal. Após afetuar <br /> o
             pagamentoe for aprovado você recebera um e-mail com login e senha da
             platforma precisara instalar o aplicativo ou acessar via navegador.
             preencha formulario disponivel e recebera uma mensagem de boas
