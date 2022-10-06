@@ -2,7 +2,10 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import styled from "styled-components";
-import foto1 from "../public/personalrsoares/Patriocinio.png";
+
+import Foto1 from "../public/personalrsoares/Patriocinio.png";
+import Foto2 from "../public/personalrsoares/Banner01.png";
+
 import Duvidas from "./duvidas";
 import Planos from "./planos";
 import Teste from "../src/components/button";
@@ -17,22 +20,30 @@ const AlingText = styled.h1`
   font-size: 1rem;
 `;
 const Wrapper = styled.section`
-  padding: 1.1em;
+  padding: 0.9em;
   text-align: right;
   background: papayawhip;
 `;
 const Wrapper2 = styled.section`
-  padding: 2.1em;
+  padding: 0.9em;
   background: peachpuff;
+`;
+
+const ContainerSobre = styled.div`
+  display: flex;
+  align-items: center;
+  vertical-align: top;
 `;
 
 export default function Home() {
   return (
     <div className="container">
-      <Banner>Logo do site forma de banner</Banner>
+      <Banner>
+        <Image src={Foto2} height={2000} />
+      </Banner>
 
       <Wrapper>
-        <Image src={foto1} height={480} width={400} />
+        <Image src={Foto1} height={480} width={400} />
 
         {/*
         colocar a foto do banner juntamento no top não desformatando
@@ -54,9 +65,9 @@ export default function Home() {
       <title>personalr.soares</title>
 
       {/* Uma foto a só*/}
-      <div className="containerSobre">
+      <ContainerSobre>
         <Wrapper2>
-          <Image src={foto1} height={480} width={400} />
+          <Image src={Foto1} height={480} width={400} />
           <h1>Sobre mim</h1>
           <p>
             Olá, Sou Ricardo soares, Professor de educação física/Personal
@@ -67,7 +78,7 @@ export default function Home() {
           </p>
           <button>Contrate Plano</button>
         </Wrapper2>
-      </div>
+      </ContainerSobre>
 
       <Duvidas />
       <Planos />

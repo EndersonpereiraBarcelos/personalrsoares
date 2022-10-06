@@ -12,36 +12,53 @@ const Wrapper2 = styled.section`
   background: peachpuff;
 `;
 
+const AlignSubText = styled.p`
+  font-size: 1.1rem;
+  text-align: justify;
+`;
+
+const AlignSubText2 = styled.p`
+  font-size: 1.1rem;
+  text-align: justify;
+  text-align: right;
+`;
+const Tittle = styled.h1`
+  text-align: center;
+`;
+const Subtittle = styled.h3`
+  text-align: right;
+`;
+
 export default function duvidas() {
   return (
     <div>
       <Wrapper>
-        <h1>Passo a Passo</h1>
+        <Tittle>Passo a Passo</Tittle>
         <ul>
-          <li>Compra</li>
-          <p>
+          <h3>Compra</h3>
+          <AlignSubText>
             Na contratação de uns dos planos você sera redirecionado, a uma
-            pagina de compra dos planos da mfit Personal. Após afetuar o
+            pagina de compra dos planos da mfit Personal. Após afetuar <br/> o
             pagamentoe for aprovado você recebera um e-mail com login e senha da
-            platforma, precisara instalar o aplicativo ou acessar via navegador.
+            platforma precisara instalar o aplicativo ou acessar via navegador.
             preencha formulario disponivel e recebera uma mensagem de boas
             vindas
-          </p>
-          <li>Planejamento</li>
-          <p>
+          </AlignSubText>
+          <h3>Planejamento</h3>
+          <AlignSubText>
             Após o preechimento do formulario o Plano de treino sera montado por
             mim em até 5 dias uteis após o pagamento
-          </p>
-          <li>Entrega</li>
-          <p>
+          </AlignSubText>
+          <Subtittle>Entrega</Subtittle>
+          <AlignSubText2>
             O treino estara disponivel na plataforma mfit personal, podera
             acessar com login e senha já criado
-          </p>
-          <li>Suporte</li>
-          <p>
+          </AlignSubText2>
+          <Subtittle>Suporte</Subtittle>
+          <AlignSubText2>
             Toda dúvida que surgir você pode contar comigo através do suporte
             via whatsapp.
-          </p>
+          </AlignSubText2>
         </ul>
       </Wrapper>
       <div>

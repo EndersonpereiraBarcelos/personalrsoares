@@ -10,6 +10,11 @@ const Wrapper = styled.section`
 const Wrapper2 = styled.section`
   padding: 2.1em;
   background: peachpuff;
+  text-align: justify;
+  text-align: center;
+  font-size: 1rem;
+  
+  
 `;
 
 export default function planos() {
@@ -52,15 +57,15 @@ export default function planos() {
 
       <div>
         <Wrapper2>
-          <h2>Tire suas Dúvidas</h2>
-          <p>----</p>
-          <h5>Quanto tempo para envio do meu treino?</h5>
+          <h2>Principais Duvidas</h2>
+          <p>--------------------------------------------------</p>
+          <h4>Quanto tempo para envio do meu treino?</h4>
           <p>
             Em até 5 dias uteis apos compra aprovada e o formulario preenchido.
           </p>
-          <h5>Como acesso os treinos</h5>
+          <h4>Como acesso os treinos</h4>
           <p>Atráves do Mfit Personal</p>
-          <h5>Como tiro dúvidas do meu treino</h5>
+          <h4>Como tiro dúvidas do meu treino</h4>
           <p>
             Terá contato comigo Diariamente em horario comercial no Whatsapp
             para qualquer dúvida no treino.
