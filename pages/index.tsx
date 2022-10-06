@@ -4,7 +4,7 @@ import Image from "next/image";
 import styled from "styled-components";
 
 import Foto1 from "../public/personalrsoares/Patriocinio.png";
-import Foto2 from "../public/personalrsoares/Banner01.png";
+import Foto2 from "../public/personalrsoares/banner01.png";
 
 import Duvidas from "./duvidas";
 import Planos from "./planos";
@@ -32,7 +32,7 @@ const Wrapper2 = styled.section`
 const ContainerSobre = styled.div`
   display: flex;
   align-items: center;
-  vertical-align: top;
+  vertical-align: text-top;
 `;
 
 export default function Home() {
