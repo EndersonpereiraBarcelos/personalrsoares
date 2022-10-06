@@ -5,7 +5,7 @@ import styled from "styled-components";
 import foto1 from "../public/personalrsoares/Patriocinio.png";
 import Duvidas from "./duvidas";
 import Planos from "./planos";
-import Teste from "../src/components/button"
+import Teste from "../src/components/button";
 
 const Banner = styled.h3`
   padding: 1.5em;
@@ -14,11 +14,11 @@ const Banner = styled.h3`
 `;
 const AlingText = styled.h1`
   text-align: right;
-  font-size: 22px;
+  font-size: 1rem;
 `;
 const Wrapper = styled.section`
-  padding: 2.1em;
- text-align: right;
+  padding: 1.1em;
+  text-align: right;
   background: papayawhip;
 `;
 const Wrapper2 = styled.section`
@@ -32,7 +32,7 @@ export default function Home() {
       <Banner>Logo do site forma de banner</Banner>
 
       <Wrapper>
-        <Image src={foto1} height={480} width={400} layout="fixed" />
+        <Image src={foto1} height={480} width={400} />
 
         {/*
         colocar a foto do banner juntamento no top não desformatando
@@ -71,8 +71,6 @@ export default function Home() {
 
       <Duvidas />
       <Planos />
-
-     
     </div>
   );
 }
