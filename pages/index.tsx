@@ -8,7 +8,7 @@ import Foto2 from "../public/personalrsoares/banner01.png";
 
 import Duvidas from "./duvidas";
 import Planos from "./planos";
-import Button from "../src/components/button";
+import Algo from "../src/components/button";
 
 const Banner = styled.h3`
   padding: 1.5em;
@@ -63,7 +63,9 @@ export default function Home() {
           de treinos focados, potencializando seus resultados com treinos
           especificos e garantir sua constancia facilitando sua vida.
         </AlingText>
-        <Button>contrate agora</Button>
+        <Algo>
+          <button>contrate agora</button>
+        </Algo>
       </Wrapper>
       <title>personalr.soares</title>
 
