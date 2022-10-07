@@ -100,7 +100,7 @@ export default function Home() {
       </ContainerSobre>
 
       <Duvidas />
-      {/* <Planos /> */}
+      <Planos />
     </div>
   );
 }
