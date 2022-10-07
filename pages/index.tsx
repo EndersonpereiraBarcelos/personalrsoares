@@ -63,9 +63,15 @@ export default function Home() {
           de treinos focados, potencializando seus resultados com treinos
           especificos e garantir sua constancia facilitando sua vida.
         </AlingText>
-        <Algo>
-          <button>contrate agora</button>
-        </Algo>
+
+        <button>
+          <a
+            href="https://www.mfitpersonal.com.br/index?share=MTU4MTAyLzAvOS8w"
+            target="next"
+          >
+            Compre agora
+          </a>
+        </button>
       </Wrapper>
       <title>personalr.soares</title>
 
@@ -81,7 +87,14 @@ export default function Home() {
             funcionalidade e estética corporal. Especialista no trabalho de
             Emagrecimento e Hipertrofia
           </p>
-          <Button>Contrate Plano</Button>
+          <button>
+            <a
+              href="https://www.mfitpersonal.com.br/index?share=MTU4MTAyLzAvOS8w"
+              target="next"
+            >
+              Compre agora
+            </a>
+          </button>
         </Wrapper2>
       </ContainerSobre>
 
