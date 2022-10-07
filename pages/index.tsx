@@ -79,7 +79,7 @@ export default function Home() {
             funcionalidade e estética corporal. Especialista no trabalho de
             Emagrecimento e Hipertrofia
           </p>
-          <button>Contrate Plano</button>
+          <Button>Contrate Plano</Button>
         </Wrapper2>
       </ContainerSobre>
 

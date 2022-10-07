@@ -5,6 +5,7 @@ import styled from "styled-components";
 const Wrapper = styled.section`
   padding: 2.1em;
 
+  vertical-align: baseline;
   background: papayawhip;
 `;
 const Wrapper2 = styled.section`
@@ -34,8 +35,9 @@ export default function duvidas() {
     <div>
       <Wrapper>
         <Tittle>Passo a Passo</Tittle>
-        <ul>
+        
           <h3>Compra</h3>
+          <br/>
           <AlignSubText>
             Na contratação de uns dos planos você sera redirecionado, a uma
             pagina de compra dos planos da mfit Personal. Após afetuar <br /> o
@@ -59,7 +61,7 @@ export default function duvidas() {
             Toda dúvida que surgir você pode contar comigo através do suporte
             via whatsapp.
           </AlignSubText2>
-        </ul>
+        
       </Wrapper>
       <div>
         <Wrapper2>

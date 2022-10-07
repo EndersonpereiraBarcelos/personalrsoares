@@ -1,13 +1,28 @@
 import { useState } from "react";
+import styled from "styled-components";
 
-export default function Button (){
-  return(
+const DecoratedButton = styled.button`
+  text-decoration: none;
+  padding: 0.3rem;
+  color: gray;
+  cursor: pointer;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  
+`;
 
+export default function Button() {
+  return (
     <div>
-
-      <button><a href="https://www.rivalry.com/pt/esports" >CLick aqui</a></button>
-
+      <DecoratedButton>
+        <a
+          href="https://www.mfitpersonal.com.br/index?share=MTU4MTAyLzAvOS8w"
+          target="next"
+        >
+          Compre agora
+        </a>
+      </DecoratedButton>
     </div>
-
-  )
+  );
 }
