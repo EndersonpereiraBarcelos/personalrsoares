@@ -16,8 +16,9 @@ const Banner = styled.h3`
   background: peachpuff;
 `;
 const AlingText = styled.h1`
-  text-align: right;
+  text-align: center;
   font-size: 1rem;
+  vertical-align: text-top;
 `;
 const Wrapper = styled.section`
   padding: 0.9em;
@@ -99,7 +100,7 @@ export default function Home() {
       </ContainerSobre>
 
       <Duvidas />
-      <Planos />
+      {/* <Planos /> */}
     </div>
   );
 }
