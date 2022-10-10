@@ -7,7 +7,6 @@ import Feedback from "../public/personalrsoares/Resultados.png"
 
 const Wrapper = styled.section`
   padding: 2.1em;
-  margin: ;
   vertical-align: baseline;
   background: papayawhip;
 `;

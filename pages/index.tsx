@@ -8,10 +8,11 @@ import Foto2 from "../public/personalrsoares/banner01.png";
 
 import Duvidas from "./duvidas";
 import Planos from "./planos";
-import Algo from "../src/components/button";
+import Click from "../src/components/button";
 
 const Banner = styled.h3`
-  padding: 1.5em;
+  padding: 0;
+  margin: 0;
   text-align: center;
   background: peachpuff;
 `;
