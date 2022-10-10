@@ -8,7 +8,7 @@ import Foto2 from "../public/personalrsoares/banner01.png";
 
 import Duvidas from "./duvidas";
 import Planos from "./planos";
-import Click from "../src/components/button";
+import Button from "../src/components/button";
 
 const Banner = styled.h3`
   padding: 0;
@@ -18,8 +18,14 @@ const Banner = styled.h3`
 `;
 const AlingText = styled.h1`
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   vertical-align: text-top;
+  word-wrap: normal;
+`;
+
+const AlingText2 = styled.p`
+  text-align: justify;
+  font-size: 1.1rem;
 `;
 const Wrapper = styled.section`
   padding: 0.9em;
@@ -57,23 +63,15 @@ export default function Home() {
         <AlingText>
           Obtenha treinos com resultados reais e conquiste o físico sonhado
         </AlingText>
-        <AlingText>
+        <AlingText2>
           {/* foto com aluno ou a só*/}
           Há 3 anos acompanho a evolução dos alunos relacionados a constancia
           treinos, estetica corporal, emagrecimento, ganho de massa magra e
           qualidade de vida e saúdea. Te ensino a otimizar o seu tempo atráves
           de treinos focados, potencializando seus resultados com treinos
           especificos e garantir sua constancia facilitando sua vida.
-        </AlingText>
-
-        <button>
-          <a
-            href="https://www.mfitpersonal.com.br/index?share=MTU4MTAyLzAvOS8w"
-            target="next"
-          >
-            Compre agora
-          </a>
-        </button>
+        </AlingText2>
+        <Button />
       </Wrapper>
       <title>personalr.soares</title>
 
@@ -89,14 +87,8 @@ export default function Home() {
             funcionalidade e estética corporal. Especialista no trabalho de
             Emagrecimento e Hipertrofia
           </p>
-          <button>
-            <a
-              href="https://www.mfitpersonal.com.br/index?share=MTU4MTAyLzAvOS8w"
-              target="next"
-            >
-              Compre agora
-            </a>
-          </button>
+
+          <Button />
         </Wrapper2>
       </ContainerSobre>
 

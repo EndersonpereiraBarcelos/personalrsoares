@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 import styled from "styled-components";
 
-import FTAluno from "../public/personalrsoares/antes_depois2.png";
-import Feedback from "../public/personalrsoares/Resultados.png"
+import Foto1 from "../public/personalrsoares/Patriocinio.png";
+
 
 const Wrapper = styled.section`
   padding: 2.1em;
@@ -73,10 +73,11 @@ export default function duvidas() {
         <Wrapper2>
           <h1>Veja resultados de alguns dos meus alunos </h1>
 
-          <Image src={FTAluno} height={360} width={300} />
-          <Image src={FTAluno} height={360} width={300} />
-          <Image src={FTAluno} height={360} width={300} />
-          <Image src={FTAluno} height={360} width={300} />
+
+          <Image src={Foto1} height={360} width={300} />
+          <Image src={Foto1} height={360} width={300} />
+          <Image src={Foto1} height={360} width={300} />
+          <Image src={Foto1} height={360} width={300} />
           
 
           <h4>
@@ -87,10 +88,10 @@ export default function duvidas() {
         <div>
           <Wrapper>
             <h1>Nossos Clientes </h1>
-            <Image src={Feedback} height={360} width={300}/>
-            <Image src={Feedback} height={360} width={300}/>
-            <Image src={Feedback} height={360} width={300}/>
-            <Image src={Feedback} height={360} width={300}/>
+            <Image src={Foto1} height={360} width={300}/>
+            <Image src={Foto1} height={360} width={300}/>
+            <Image src={Foto1} height={360} width={300}/>
+            <Image src={Foto1} height={360} width={300}/>
             <p>carrosel com foto do cliente e experiencia dele(a) 4 clie</p>
           </Wrapper>
         </div>

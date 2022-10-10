@@ -30,14 +30,7 @@ export default function planos() {
           enviado pelo app Ptrainer com mais de 300 vídeos de exercícios
           disponíveis.
         </p>
-        <button>
-          <a
-            href="https://www.mfitpersonal.com.br/index?share=MTU4MTAyLzAvOS8w"
-            target="next"
-          >
-            Compre agora
-          </a>
-        </button>
+        <Button />
         <h4>Plano Trimestral</h4>
         <p>
           Nesse plano o aluno terá direito a 3 meses de acompanhamento, 1
@@ -47,14 +40,7 @@ export default function planos() {
           lugar + 1 link de desconto no primeiro mês por 4,99 na academia
           digital Free Fitness (A qual sou sócio-afiliado)
         </p>
-        <button>
-          <a
-            href="https://www.mfitpersonal.com.br/index?share=MTU4MTAyLzAvOS8w"
-            target="next"
-          >
-            Compre agora
-          </a>
-        </button>
+        <Button/>
 
         <h4>Plano HealthTeam</h4>
         <p>
@@ -65,14 +51,7 @@ export default function planos() {
           lugar + 1 link de desconto no primeiro mês por 4,99, na academia
           digital Free Fitness (A qual sou sócio-afiliado).
         </p>
-        <button>
-          <a
-            href="https://www.mfitpersonal.com.br/index?share=MTU4MTAyLzAvOS8w"
-            target="next"
-          >
-            Compre agora
-          </a>
-        </button>
+        <Button/>
       </Wrapper>
 
       <div>
