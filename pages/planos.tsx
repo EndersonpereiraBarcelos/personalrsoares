@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styled from "styled-components";
 import Button from "../components/button";
+import Compras from "../components/compras";
 
 const Wrapper = styled.section`
   padding: 2.1em;
@@ -16,48 +17,33 @@ const Wrapper2 = styled.section`
   font-size: 1rem;
 `;
 
+const Duvidas = styled.section`
+  text-align: center;
+  font-size: 0.7rem;
+  word-wrap: normal;
+
+  h4 {
+    font-size: 0.8rem;
+  }
+`;
+
+
 export default function planos() {
   return (
     <div>
       <Wrapper2>
         <h1>Escolha Seu Plano</h1>
         <h3>Selecione um plano abaixo e aproveite agora a oprtunidade</h3>
-
-        <h4> Plano Start Mensal</h4>
-        <p>
-          Nesse plano o aluno terá direito a um mês de acompanhamento, uma
-          prescrição de treino individualizada, suporte via whats app e o treino
-          enviado pelo app Ptrainer com mais de 300 vídeos de exercícios
-          disponíveis.
-        </p>
-        <Button />
-        <h4>Plano Trimestral</h4>
-        <p>
-          Nesse plano o aluno terá direito a 3 meses de acompanhamento, 1
-          prescrição de treino individualizada a cada mês, suporte via whats app
-          e o treino enviado pelo app Ptrainer com mais de 300 vídeos de
-          exercícios disponíveis. Bônus: Um treino pra ser feito em qualquer
-          lugar + 1 link de desconto no primeiro mês por 4,99 na academia
-          digital Free Fitness (A qual sou sócio-afiliado)
-        </p>
-        <Button />
-
-        <h4>Plano HealthTeam</h4>
-        <p>
-          Nesse plano o aluno terá direito a 6 meses de acompanhamento, 1
-          prescrição de treino individualizada a cada mês, suporte via whats app
-          e o treino enviado pelo app Ptrainer com mais de 300 vídeos de
-          exercícios disponíveis. Bônus: Um treino pra ser feito em qualquer
-          lugar + 1 link de desconto no primeiro mês por 4,99, na academia
-          digital Free Fitness (A qual sou sócio-afiliado).
-        </p>
-        <Button />
+        <br />
+        <Compras />
       </Wrapper2>
 
-      <div>
-        <Wrapper>
+      <Wrapper>
+        <Duvidas>
           <h2>Principais Duvidas</h2>
-          <p>--------------------------------------------------</p>
+          <p>
+            -----------------------------------------------------------------
+          </p>
           <h4>Quanto tempo para envio do meu treino?</h4>
           <p>
             Em até 5 dias uteis apos compra aprovada e o formulario preenchido.
@@ -69,8 +55,8 @@ export default function planos() {
             Terá contato comigo Diariamente em horario comercial no Whatsapp
             para qualquer dúvida no treino.
           </p>
-        </Wrapper>
-      </div>
+        </Duvidas>
+      </Wrapper>
     </div>
   );
 }

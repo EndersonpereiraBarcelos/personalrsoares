@@ -4,7 +4,6 @@ import Foto1 from "../public/personalrsoares/Patriocinio.png";
 
 export default function UncontrolledExample() {
   return (
-    <div class="container">
       <Carousel>
         <Carousel.Item>
           <Image src={Foto1} className="d-block" height={360} width={300} />
@@ -32,6 +31,5 @@ export default function UncontrolledExample() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-    </div>
   );
 }

@@ -1,7 +1,6 @@
 import React from "react";
-import Head from "next/head";
-import Image from "next/image";
 import styled from "styled-components";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import FotoPrincipal from "../components/fotoPrincipal";
 import Banner from "../components/banner";
@@ -21,7 +20,6 @@ const Wrapper = styled.section`
     vertical-align: text-top;
     word-wrap: normal;
   }
-
   p {
     text-align: justify;
     font-size: 1.1rem;
@@ -41,7 +39,6 @@ export default function Home() {
   return (
     <div>
       <Banner />
-
       <Wrapper>
         <AjusteTxt>
           <FotoPrincipal />
