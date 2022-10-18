@@ -9,8 +9,6 @@ const StyledButton = styled.button`
   background: palevioletred;
   border-color: palevioletred;
   display: inline-block;
-
-
 `;
 
 export default function Button() {
