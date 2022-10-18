@@ -1,8 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styled from "styled-components";
-import Passo from "../components/Passo"
-
+import Passo from "../components/Passo";
 import FotoPrincipal from "../components/fotoPrincipal";
 
 const Wrapper = styled.section`
@@ -33,8 +32,7 @@ export default function duvidas() {
       <Wrapper>
         <h1>Passo a Passo</h1>
 
-
-        <Passo/>
+        <Passo />
       </Wrapper>
       <Wrapper2>
         <h1>Veja resultados de alguns dos meus alunos </h1>
@@ -46,9 +44,6 @@ export default function duvidas() {
       </Wrapper2>
       <Wrapper>
         <h1>Nossos Clientes </h1>
-        <FotoPrincipal />
-        <FotoPrincipal />
-        <FotoPrincipal />
         <FotoPrincipal />
         <p>carrosel com foto do cliente e experiencia dele(a) 4 clie</p>
       </Wrapper>
