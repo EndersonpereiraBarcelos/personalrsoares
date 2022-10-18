@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import FotoPrincipal from "../components/fotoPrincipal";
+import FotoPadrao from "../components/fotoFile";
+import FotoPadrao2 from "../components/fotoFile2";
 import Banner from "../components/banner";
 import Duvidas from "./duvidas";
 import Planos from "./planos";
@@ -41,33 +42,12 @@ export default function Home() {
       <Banner />
       <Wrapper>
         <AjusteTxt>
-          <FotoPrincipal />
-          <h1>
-            Obtenha treinos com resultados reais e conquiste o físico sonhado
-          </h1>
-          <p>
-            {/* foto com aluno ou a só*/}
-            Há 3 anos acompanho a evolução dos alunos relacionados a constancia
-            treinos, estetica corporal, emagrecimento, ganho de massa magra e
-            qualidade de vida e saúdea. Te ensino a otimizar o seu tempo atráves
-            de treinos focados, potencializando seus resultados com treinos
-            especificos e garantir sua constancia facilitando sua vida.
-          </p>
-          <Button />
+          <FotoPadrao />
         </AjusteTxt>
       </Wrapper>
       <Wrapper2>
-        <FotoPrincipal />
-        <h1>Sobre mim</h1>
-        <p>
-          Olá, Sou Ricardo soares, Professor de educação física/Personal
-          trainer... Atuo 3 anos com treinamento de musculação de diversas
-          maneiras ajudando pessoas a elevar o nível no que compete a saúde,
-          funcionalidade e estética corporal. Especialista no trabalho de
-          Emagrecimento e Hipertrofia
-        </p>
-
-        <Button />
+        <FotoPadrao2 />
+        
       </Wrapper2>
       <Duvidas />
       <Planos />

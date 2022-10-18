@@ -1,8 +1,6 @@
-import React from "react";
-import Image from "next/image";
 import styled from "styled-components";
 import Passo from "../components/Passo";
-import FotoPrincipal from "../components/fotoPrincipal";
+import FotoPrincipal from "../components/carousel";
 
 const Wrapper = styled.section`
   padding: 2.1em;
@@ -45,7 +43,6 @@ export default function duvidas() {
       <Wrapper>
         <h1>Nossos Clientes </h1>
         <FotoPrincipal />
-        <p>carrosel com foto do cliente e experiencia dele(a) 4 clie</p>
       </Wrapper>
     </div>
   );
