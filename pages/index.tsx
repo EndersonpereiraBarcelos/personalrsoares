@@ -47,7 +47,6 @@ export default function Home() {
       </Wrapper>
       <Wrapper2>
         <FotoPadrao2 />
-        
       </Wrapper2>
       <Duvidas />
       <Planos />

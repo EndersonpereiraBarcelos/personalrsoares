@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col";
 
 function AutoLayoutExample() {
   return (
-    <Container>
+    <Container fluid>
       <Row>
         <Col>
           <h1>Sobre mim</h1>

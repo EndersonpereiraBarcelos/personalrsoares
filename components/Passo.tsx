@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 function ResponsiveExample() {
   return (
-    <Container>
+    <Container fluid>
       {/* Stack the columns on mobile by making one full-width and the other half-width */}
       <Row>
         <Col xs={12} md={8}>
