@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Passo from "../components/Passo";
-import FotoPrincipal from "../components/carousel";
+import FotoPrincipal from "../components/carousel"
+import Clientes from "../components/Clientes"
 
 const Wrapper = styled.section`
   padding: 2.1em;
@@ -41,8 +42,8 @@ export default function duvidas() {
         </h4>
       </Wrapper2>
       <Wrapper>
-        <h1>Nossos Clientes </h1>
-        <FotoPrincipal />
+        <h1>Antes e depois dos nossos clientes </h1>
+        <Clientes />
       </Wrapper>
     </div>
   );

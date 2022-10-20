@@ -7,7 +7,6 @@ import FotoPadrao2 from "../components/fotoFile2";
 import Banner from "../components/banner";
 import Duvidas from "./duvidas";
 import Planos from "./planos";
-import Button from "../components/button";
 
 const Wrapper = styled.section`
   padding: 0.9em;

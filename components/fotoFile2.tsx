@@ -13,11 +13,8 @@ function AutoLayoutExample() {
         <Col>
           <h1>Sobre mim</h1>
           <p>
-            Olá, Sou Ricardo soares, Professor de educação física/Personal
-            trainer... Atuo 3 anos com treinamento de musculação de diversas
-            maneiras ajudando pessoas a elevar o nível no que compete a saúde,
-            funcionalidade e estética corporal. Especialista no trabalho de
-            Emagrecimento e Hipertrofia
+          Olá, sou Ricardo Sales Soares, professor de educação física na área de bacharel, atuo há mais de 5 anos com treinamento de musculação e outros, ajudo pessoas quaisquer a conquistarem seus objetivos através do treinamento, isso inclui, saúde e bem estar, estética e atletas para competições, sou especialista no trabalho de emagrecimento e hipertrofia. 
+
           </p>
           <Button />
         </Col>

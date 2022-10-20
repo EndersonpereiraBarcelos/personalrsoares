@@ -31,7 +31,7 @@ function ContainerFluidBreakpointExample() {
           <Button />
         </Col>
         <Col>
-          <h4>Plano HealthTeam</h4>
+          <h4>Plano semestral</h4>
           <p>
             Nesse plano o aluno terá direito a 6 meses de acompanhamento, 1
             prescrição de treino individualizada a cada mês, suporte via whats

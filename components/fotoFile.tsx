@@ -15,18 +15,12 @@ function AutoLayoutExample() {
           <Image src={Foto1} height={360} width={300} />
         </Col>
         <Col>
-          <h1>
-            Obtenha treinos com resultados reais e conquiste o físico sonhado
-          </h1>
+          <h1> Consquieste uam saúde digna e uma estética como sempre quis, através de um treino feito especificamente para você </h1>
           <p>
             {/* foto com aluno ou a só*/}
-            Há 3 anos acompanho a evolução dos alunos relacionados a constancia
-            treinos, estetica corporal, emagrecimento, ganho de massa magra e
-            qualidade de vida e saúdea. Te ensino a otimizar o seu tempo atráves
-            de treinos focados, potencializando seus resultados com treinos
-            especificos e garantir sua constancia facilitando sua vida.
+            Ao longo do meu percurso como profissional da educação física- personal treiner,  vi muitas pessoas desistirem dos seus objetivos e saúde por não terem um treino específico e feito para elas , e sempre utilizarem treinos genéricos de academia. Aqui treinando comigo lhe darei 100% de garantia, da otimização do seu tempo, saúde , estética e qualidade de vida , acessando resultados que jamais imaginaria.
           </p>
-          <Button/>
+          <Button />
         </Col>
       </Row>
     </Container>
