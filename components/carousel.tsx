@@ -20,6 +20,7 @@ function AutoLayoutSizingExample() {
         <Col xs><Image src={resultado} /></Col>
         <Col><Image src={patriocinio} /></Col>
       </Row>
+
     </Container>
   );
 }
