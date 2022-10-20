@@ -1,26 +1,27 @@
-import Carousel from "react-bootstrap/Carousel";
+import patriocinio from "../public/personalrsoares/Patriocinio.png"
+import resultado from "../public/personalrsoares/Resultados.png"
+import CTO from "../public/personalrsoares/ConsultoriaOnline.png"
 import Image from "next/image";
-import Foto1 from "../public/feedack/fb01.jpg";
-import Foto2 from "../public/personalrsoares/ConsultoriaOnline.png";
-import Foto3 from "../public/personalrsoares/antes_depois.png";
 
-export default function UncontrolledExample() {
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
+function AutoLayoutSizingExample() {
   return (
-    <Carousel>
-      <Carousel.Item>
-        <Image src={Foto1} className="d-block" height={360} width={450} />
-        <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image src={Foto2} className="d-block" height={360} width={300} />
-
-        <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image src={Foto3} className="d-block" height={360} width={300} />
-
-        <Carousel.Caption></Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+    <Container>
+      <Row>
+        <Col ><Image src={patriocinio} /> </Col>
+        <Col xs={4}><Image src={resultado} /></Col>
+        <Col><Image src={CTO} /></Col>
+      </Row>
+      <Row>
+        <Col><Image src={CTO} /></Col>
+        <Col xs><Image src={resultado} /></Col>
+        <Col><Image src={patriocinio} /></Col>
+      </Row>
+    </Container>
   );
 }
+
+export default AutoLayoutSizingExample;
