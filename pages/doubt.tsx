@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Passo from "../components/Passo";
-import FotoPrincipal from "../components/carousel"
-import Clientes from "../components/Clientes"
+import Passo from "../components/step";
+import Carousel from "../components/carousel"
+import Beforeafter from "../components/beforeafter"
 
 const Wrapper = styled.section`
   padding: 2.1em;
@@ -30,12 +30,11 @@ export default function duvidas() {
     <div>
       <Wrapper>
         <h1>Passo a Passo</h1>
-
         <Passo />
       </Wrapper>
       <Wrapper2>
         <h1>Veja resultados de alguns dos meus alunos </h1>
-        <FotoPrincipal />
+        <Carousel />
         <h4>
           Nossos Planos vão trazer flexibilidade e ao mesmo tempo resultados
           para sua saúde.
@@ -43,7 +42,7 @@ export default function duvidas() {
       </Wrapper2>
       <Wrapper>
         <h1>Antes e depois dos nossos clientes </h1>
-        <Clientes />
+        <Beforeafter />
       </Wrapper>
     </div>
   );

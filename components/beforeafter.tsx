@@ -1,4 +1,4 @@
-import lorena from "../public/feedack/LorenaA_D.png"
+import lorena from "../public/feedback/LorenaA_D.png"
 import Image from "next/image";
 
 import Container from 'react-bootstrap/Container';

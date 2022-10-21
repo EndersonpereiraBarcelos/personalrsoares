@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import FotoPadrao from "../components/fotoFile";
-import FotoPadrao2 from "../components/fotoFile2";
-import Banner from "../components/banner";
-import Duvidas from "./duvidas";
-import Planos from "./planos";
+import Initial from "../components/initial";
+import Aboutme from "../components/aboutme";
+import Companylogo from "../components/companylogo";
+import Doubt from "./doubt";
+import Plans from "./plans";
 
 const Wrapper = styled.section`
   padding: 0.9em;
@@ -30,7 +30,7 @@ const Wrapper2 = styled.section`
   background: peachpuff;
 `;
 
-const AjusteTxt = styled.div`
+const Adjustment = styled.div`
   justify-content: right;
   display: inline-block;
 `;
@@ -38,17 +38,17 @@ const AjusteTxt = styled.div`
 export default function Home() {
   return (
     <div>
-      <Banner />
+      <Companylogo />
       <Wrapper>
-        <AjusteTxt>
-          <FotoPadrao />
-        </AjusteTxt>
+        <Adjustment>
+          <Initial />
+        </Adjustment>
       </Wrapper>
       <Wrapper2>
-        <FotoPadrao2 />
+        <Aboutme />
       </Wrapper2>
-      <Duvidas />
-      <Planos />
+      <Doubt />
+      <Plans />
     </div>
   );
 }

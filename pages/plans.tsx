@@ -1,8 +1,6 @@
 import React from "react";
-import Image from "next/image";
 import styled from "styled-components";
-import Button from "../components/button";
-import Compras from "../components/compras";
+import Purchaseplans from "../components/purchaseplans";
 
 const Wrapper = styled.section`
   padding: 2.1em;
@@ -35,25 +33,24 @@ export default function planos() {
         <h1>Escolha Seu Plano</h1>
         <h3>Selecione um plano abaixo e aproveite agora a oprtunidade</h3>
         <br />
-        <Compras />
+        <Purchaseplans />
       </Wrapper2>
 
       <Wrapper>
         <Duvidas>
-          <h2>Principais Duvidas</h2>
+          <h2>Principais Dúvidas</h2>
           <p>
             -----------------------------------------------------------------
           </p>
           <h4>Quanto tempo para envio do meu treino?</h4>
           <p>
-            Em até 5 dias uteis apos compra aprovada e o formulario preenchido.
+            Em até 5 dias úteis após compra aprovada e o formulário preenchido.
           </p>
-          <h4>Como acesso os treinos</h4>
+          <h4>Como acesso os treinos?</h4>
           <p>Atráves do Mfit Personal</p>
-          <h4>Como tiro dúvidas do meu treino</h4>
+          <h4>Como tiro dúvidas do meu treino?</h4>
           <p>
-            Terá contato comigo Diariamente em horario comercial no Whatsapp
-            para qualquer dúvida no treino.
+            Terá contato comigo diariamente em horário comercial no Whatsapp para qualquer dúvida no treino.
           </p>
         </Duvidas>
       </Wrapper>
