@@ -10,8 +10,8 @@ function ContainerExample() {
   return (
     <Container>
       <Row>
-        <Col sm={5}> <Image src={Foto1} height={360} width={300} /> </Col>
-        <Col> <h1> Conquiste uma saúde digna e uma estética como sempre quis, através de um treino feito especificamente para você </h1>
+        <Col fluid="xxl"> <Image src={Foto1} height={360} width={300} /> </Col>
+        <Col fluid="xxl"> <h1> Conquiste uma saúde digna e uma estética como sempre quis, através de um treino feito especificamente para você </h1>
           <p>
             {/* foto com aluno ou a só*/}
             Ao longo do meu percurso como profissional da educação física- personal trainer, vi muitas pessoas desistirem dos seus objetivos e saúde por não terem um treino específico e feito para elas , e sempre utilizarem treinos genéricos de academia. Aqui treinando comigo lhe darei 100% de garantia, da otimização do seu tempo, saúde , estética e qualidade de vida , acessando resultados que jamais imaginaria.

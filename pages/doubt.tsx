@@ -6,7 +6,8 @@ import Beforeafter from "../components/beforeafter"
 const Wrapper = styled.section`
   padding: 2.1em;
   vertical-align: baseline;
-  background: papayawhip;
+  background: #434343;
+  color:#fffff3;
 
   h1 {
     text-align: center;
@@ -18,12 +19,19 @@ const Wrapper = styled.section`
 `;
 const Wrapper2 = styled.section`
   padding: 1.1em;
-  background: peachpuff;
+  background: #656565;
+  color:#fffff3;
 `;
 
 const Subtittle = styled.h3`
   text-align: right;
 `;
+
+const Wrapper3 = styled.section`
+  background: #434343;
+color:#fffff3;
+
+  `
 
 export default function duvidas() {
   return (
@@ -40,10 +48,10 @@ export default function duvidas() {
           para sua saúde.
         </h4>
       </Wrapper2>
-      <Wrapper>
+      <Wrapper3>
         <h1>Antes e depois dos nossos clientes </h1>
         <Beforeafter />
-      </Wrapper>
+      </Wrapper3>
     </div>
   );
 }

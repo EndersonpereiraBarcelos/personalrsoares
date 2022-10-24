@@ -10,8 +10,8 @@ function ContainerExample() {
   return (
     <Container>
       <Row>
-        <Col sm={4}> <Image src={Foto1} height={360} width={300} /> </Col>
-        <Col xs> <h2>Sobre mim</h2>
+        <Col fluid="xxl"> <Image src={Foto1} height={360} width={300} /> </Col>
+        <Col fluid="xxl"> <h2>Sobre mim</h2>
           <p>
             Olá, sou Ricardo Sales Soares, professor de educação física na área de bacharel, atuo há mais de 5 anos com treinamento de musculação e outros, ajudo pessoas quaisquer a conquistarem seus objetivos através do treinamento, isso inclui, saúde e bem estar, estética e atletas para competições, sou especialista no trabalho de emagrecimento e hipertrofia.
           </p>

@@ -10,9 +10,10 @@ import Plans from "./plans";
 
 const Wrapper = styled.section`
   padding: 0.9em;
-  background-color: papayawhip;
+  background: #434343;
   align-items: center;
   vertical-align: text-top;
+  color:#fffff3;
 
   h1 {
     text-align: left;
@@ -27,7 +28,8 @@ const Wrapper = styled.section`
 `;
 const Wrapper2 = styled.section`
   padding: 0.9em;
-  background: peachpuff;
+  background: #656565;
+  color:#fffff3;
 `;
 
 const Adjustment = styled.div`
@@ -38,8 +40,8 @@ const Adjustment = styled.div`
 export default function Home() {
   return (
     <div>
-      <Companylogo />
       <Wrapper>
+        <Companylogo />
         <Adjustment>
           <Initial />
         </Adjustment>
