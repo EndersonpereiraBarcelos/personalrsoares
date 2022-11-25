@@ -45,7 +45,7 @@ export default function SimpleContainer() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="xl">
-        <Box sx={{ bgcolor: "#434343" }} />
+        <Box sx={{ bgcolor: "#ffff" }} />
         <Wrapper>
           <Companylogo />
           <Adjustment>

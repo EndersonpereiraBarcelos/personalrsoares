@@ -50,9 +50,8 @@ import Grid from "@mui/material/Grid";
 import Paper from "@mui/material/Paper";
 import Box from "@mui/material/Box";
 
-
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#434343",
+  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#656565",
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",
@@ -65,7 +64,7 @@ export default function RowAndColumnSpacing() {
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={6}>
           <Item>
-            1 <h3>Compra</h3>
+            <h3>Compra</h3>
             <p>
               Na contratação de um dos planos você será redirecionado a uma
               página de compra dos planos da mfit Personal. Após efetuar o
@@ -78,7 +77,7 @@ export default function RowAndColumnSpacing() {
         </Grid>
         <Grid item xs={6}>
           <Item>
-            2 <h3>Planejamento</h3>
+            <h3>Planejamento</h3>
             <p>
               Após o preenchimento do formulário o Plano de treino será montado
               por mim em até 5 dias úteis após o pagamento
@@ -87,7 +86,7 @@ export default function RowAndColumnSpacing() {
         </Grid>
         <Grid item xs={6}>
           <Item>
-            3 <h3>Entrega</h3>
+            <h3>Entrega</h3>
             <p>
               O treino estará disponível na plataforma mfit personal, poderá
               acessar com login e senha já criado
@@ -96,7 +95,7 @@ export default function RowAndColumnSpacing() {
         </Grid>
         <Grid item xs={6}>
           <Item>
-            4 <h3>Suporte</h3>
+            <h3>Suporte</h3>
             <p>
               Toda dúvida que surgir você pode contar comigo através do suporte
               via whatsapp.

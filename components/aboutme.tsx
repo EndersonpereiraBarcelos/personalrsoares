@@ -45,7 +45,7 @@ import Foto1 from "../public/personalrsoares/ftabout.png";
 import Button from "./button";
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#434343",
+  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : " #434343",
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",
