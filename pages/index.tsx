@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -13,7 +12,7 @@ const Wrapper = styled.section`
   background: #434343;
   align-items: center;
   vertical-align: text-top;
-  color:#fffff3;
+  color: #fffff3;
 
   h1 {
     text-align: left;
@@ -29,28 +28,54 @@ const Wrapper = styled.section`
 const Wrapper2 = styled.section`
   padding: 0.9em;
   background: #656565;
-  color:#fffff3;
+  color: #fffff3;
 `;
 
 const Adjustment = styled.div`
   justify-content: right;
   display: inline-block;
 `;
+import * as React from "react";
+import CssBaseline from "@mui/material/CssBaseline";
+import Box from "@mui/material/Box";
+import Container from "@mui/material/Container";
 
-export default function Home() {
+export default function SimpleContainer() {
   return (
-    <div>
-      <Wrapper>
-        <Companylogo />
-        <Adjustment>
-          <Initial />
-        </Adjustment>
-      </Wrapper>
-      <Wrapper2>
-        <Aboutme />
-      </Wrapper2>
-      <Doubt />
-      <Plans />
-    </div>
+    <React.Fragment>
+      <CssBaseline />
+      <Container maxWidth="false">
+        {/* <Box sx={{ bgcolor: "#cfe8fc", width: "100vh" }} /> */}
+        <Wrapper>
+          <Companylogo />
+          <Adjustment>
+            <Initial />
+          </Adjustment>
+        </Wrapper>
+        <Wrapper2>
+          <Aboutme />
+        </Wrapper2>
+        <Doubt />
+        <Plans />
+      </Container>
+    </React.Fragment>
   );
 }
+
+// export default function Home() {
+//   return (
+//     <div>
+//       <Wrapper>
+//         <Companylogo />
+//         <Adjustment>
+//           <Initial />
+//         </Adjustment>
+//       </Wrapper>
+//       <Wrapper2>
+//         <Aboutme />
+//       </Wrapper2>
+//       <Doubt />
+//       <Plans />
+//     </div>
+//   );
+// }
