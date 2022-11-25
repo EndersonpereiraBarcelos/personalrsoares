@@ -38,14 +38,14 @@ const Adjustment = styled.div`
 import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Box from "@mui/material/Box";
-import Container from "@mui/material/Container";
+import { Container } from "@mui/material";
 
 export default function SimpleContainer() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container false>
-        {/* <Box sx={{ bgcolor: "#cfe8fc", width: "100vh" }} /> */}
+      <Container maxWidth="xl">
+        <Box sx={{ bgcolor: "#434343" }} />
         <Wrapper>
           <Companylogo />
           <Adjustment>
@@ -61,21 +61,3 @@ export default function SimpleContainer() {
     </React.Fragment>
   );
 }
-
-// export default function Home() {
-//   return (
-//     <div>
-//       <Wrapper>
-//         <Companylogo />
-//         <Adjustment>
-//           <Initial />
-//         </Adjustment>
-//       </Wrapper>
-//       <Wrapper2>
-//         <Aboutme />
-//       </Wrapper2>
-//       <Doubt />
-//       <Plans />
-//     </div>
-//   );
-// }

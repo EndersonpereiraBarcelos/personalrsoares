@@ -41,7 +41,7 @@ import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 
 import Image from "next/image";
-import Foto1 from "../public/personalrsoares/ftabout.jpeg";
+import Foto1 from "../public/personalrsoares/ftabout.png";
 import Button from "./button";
 
 const Item = styled(Paper)(({ theme }) => ({
