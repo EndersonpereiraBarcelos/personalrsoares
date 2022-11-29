@@ -6,8 +6,8 @@ import Beforeafter from "../components/beforeafter";
 const Wrapper = styled.section`
   padding: 2.1em;
   vertical-align: baseline;
-  background: #434343;
-  color: #fffff3;
+  background: #979797;;
+  color: #ffffff;
 
   h1 {
     text-align: center;
@@ -20,7 +20,7 @@ const Wrapper = styled.section`
 const Wrapper2 = styled.section`
   padding: 1.1em;
   background: #656565;
-  color: #fffff3;
+  color: #ffffff;
 `;
 
 const Subtittle = styled.h3`
@@ -29,7 +29,7 @@ const Subtittle = styled.h3`
 
 const Wrapper3 = styled.section`
   background: #434343;
-  color: #fffff3;
+  color: #434343;
 `;
 
 export default function duvidas() {

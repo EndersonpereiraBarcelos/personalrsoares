@@ -9,7 +9,7 @@ import Plans from "./plans";
 
 const Wrapper = styled.section`
   padding: 0.9em;
-  background: #434343;
+  background: #979797;
   align-items: center;
   vertical-align: text-top;
   color: #fffff3;
@@ -27,7 +27,7 @@ const Wrapper = styled.section`
 `;
 const Wrapper2 = styled.section`
   padding: 0.9em;
-  background: #656565;
+  background: #979797;
   color: #fffff3;
 `;
 
