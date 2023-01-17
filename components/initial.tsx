@@ -29,8 +29,8 @@ export default function ColumnsGrid() {
         <Grid item xs={8}>
           <Item>
             <h2>
-              Conquiste uma saúde digna e uma estética como sempre quis, através
-              de um treino feito especificamente para você{" "}
+              Conquiste uma saúde digna e uma físico como sempre quis, através
+              de um treino feito especificamente para você
             </h2>
             <p>
               Ao longo do meu percurso como profissional da educação física-
@@ -38,8 +38,8 @@ export default function ColumnsGrid() {
               e saúde por não terem um treino específico e feito para elas , e
               sempre utilizarem treinos genéricos de academia. Aqui treinando
               comigo lhe darei 100% de garantia, da otimização do seu tempo,
-              saúde , estética e qualidade de vida , acessando resultados que
-              jamais imaginaria.
+              saúde , estética e qualidade de vida, acessando resultados que
+              jamais vistos.
             </p>
             <Button />
           </Item>

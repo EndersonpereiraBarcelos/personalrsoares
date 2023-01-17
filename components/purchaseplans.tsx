@@ -24,7 +24,7 @@ export default function AutoGrid() {
             <p>
               Nesse plano o aluno terá direito a um mês de acompanhamento, uma
               prescrição de treino individualizada, suporte via whatsapp e o
-              treino enviado pelo app Trainer com mais de 300 vídeos de
+              treino enviado pelo MFIT Personal com mais de 1000 vídeos de
               exercícios disponíveis.
             </p>
             <Button />
@@ -37,10 +37,9 @@ export default function AutoGrid() {
             <p>
               Nesse plano o aluno terá direito a 3 meses de acompanhamento, 1
               prescrição de treino individualizada a cada mês, suporte via
-              whatsapp e o treino enviado pelo app Trainer com mais de 300
+              whatsapp e o treino enviado pelo MFIT personal com mais de 1000
               vídeos de exercícios disponíveis. Bônus: Um treino pra ser feito
-              em qualquer lugar + 1 link de desconto no primeiro mês por 4,99 na
-              academia digital Free Fitness (A qual sou sócio-afiliado)
+              em qualquer lugar + avaliação física.
             </p>
             <Button />
           </Item>
@@ -51,10 +50,9 @@ export default function AutoGrid() {
             <p>
               Nesse plano o aluno terá direito a 6 meses de acompanhamento, 1
               prescrição de treino individualizada a cada mês, suporte via
-              whatsapp e o treino enviado pelo app Trainer com mais de 300
-              vídeos de exercícios disponíveis. Bônus: Um treino pra ser feito
-              em qualquer lugar + 1 link de desconto no primeiro mês por 4,99,
-              na academia digital Free Fitness (A qual sou sócio-afiliado).
+              whatsapp e o treino enviado pelo MFIT personal com mais de 1000
+              vídeos de exercícios disponíveis. Bônus: Dois treinos pra ser
+              feito em qualquer lugar + avaliação física + plano alimentar.
             </p>
             <Button />
           </Item>
