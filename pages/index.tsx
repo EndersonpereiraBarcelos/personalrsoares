@@ -42,24 +42,39 @@ import { Container } from "@mui/material";
 
 export default function SimpleContainer() {
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth="x">
-      <Box sx={{ bgcolor: 'black', height: '100vh',  }}>
+    <>
+    <div className="Container">
+         <Wrapper>
+           {/* <Companylogo /> */}
+           <Adjustment>
+             <Initial />
+           </Adjustment>
+         </Wrapper>
+         <Wrapper2>
+           <Aboutme />
+         </Wrapper2>
+         <Doubt />
+         <Plans />
 
-        <Wrapper>
-          <Companylogo />
-          <Adjustment>
-            <Initial />
-          </Adjustment>
-        </Wrapper>
-        <Wrapper2>
-          <Aboutme />
-        </Wrapper2>
-        <Doubt />
-        <Plans />
-      </Box>
-      </Container>
-    </React.Fragment>
+    </div>
+    </>
+    // <React.Fragment>
+    //   <CssBaseline />
+    //   <Container maxWidth="lg">
+    //   <Box sx={{ bgcolor: 'black', height: '100vh',  }}>
+    //     <Wrapper>
+    //       {/* <Companylogo /> */}
+    //       <Adjustment>
+    //         <Initial />
+    //       </Adjustment>
+    //     </Wrapper>
+    //     <Wrapper2>
+    //       <Aboutme />
+    //     </Wrapper2>
+    //     <Doubt />
+    //     <Plans />
+    //   </Box>
+    //   </Container>
+    // </React.Fragment>
   );
 }
