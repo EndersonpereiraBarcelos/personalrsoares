@@ -15,14 +15,14 @@ function AutoLayoutSizingExample() {
   return (
     <Container>
       <Row>
-        <Col ><Image src={professor} /> </Col>
-        <Col xs={4}><Image src={aluno01} /></Col>
-        <Col><Image src={aluno02} /></Col>
+        <Col ><Image src={professor}  width={300}/> </Col>
+        <Col xs={4}><Image src={aluno01} width={300} /></Col>
+        <Col><Image src={aluno02} width={300} /></Col>
       </Row>
       <Row>
-        <Col><Image src={aluno03} /></Col>
-        <Col xs><Image src={aluno04} /></Col>
-        <Col><Image src={aluno05} /></Col>
+        <Col><Image src={aluno03} width={300} /></Col>
+        <Col xs><Image src={aluno04} width={300} /></Col>
+        <Col><Image src={aluno05} width={300} /></Col>
       </Row>
     </Container>
   );

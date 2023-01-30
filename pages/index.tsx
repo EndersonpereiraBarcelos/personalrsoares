@@ -9,10 +9,10 @@ import Plans from "./plans";
 
 const Wrapper = styled.section`
   padding: 0.9em;
-  background: #979797;
+  background: black;
   align-items: center;
   vertical-align: text-top;
-  color: #fffff3;
+  color: #2c7e20;
 
   h1 {
     text-align: left;
@@ -27,8 +27,8 @@ const Wrapper = styled.section`
 `;
 const Wrapper2 = styled.section`
   padding: 0.9em;
-  background: #979797;
-  color: #fffff3;
+  background: black;
+  color: #2c7e20;
 `;
 
 const Adjustment = styled.div`
@@ -45,7 +45,8 @@ export default function SimpleContainer() {
     <React.Fragment>
       <CssBaseline />
       <Container maxWidth="xl">
-        <Box sx={{ bgcolor: "#ffff" }} />
+      <Box sx={{ bgcolor: 'black', height: '100vh', width: "170vh" }}>
+
         <Wrapper>
           <Companylogo />
           <Adjustment>
@@ -57,6 +58,7 @@ export default function SimpleContainer() {
         </Wrapper2>
         <Doubt />
         <Plans />
+      </Box>
       </Container>
     </React.Fragment>
   );

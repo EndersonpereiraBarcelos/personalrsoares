@@ -4,12 +4,12 @@ import Purchaseplans from "../components/purchaseplans";
 
 const Wrapper = styled.section`
   padding: 2.1em;
-  background: #979797;;
-  color: #ffffff;
+  background: black;
+  color: #ffffff
 `;
 const Wrapper2 = styled.section`
   padding: 2.1em;
-  background: #979797;;
+  background: black;;
   color: #ffffff;
   text-align: justify;
   text-align: center;

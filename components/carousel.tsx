@@ -24,14 +24,14 @@ function AutoLayoutSizingExample() {
   return (
     <Container>
       <Row>
-        <Col ><Image src={patriocinio} /> </Col>
-        <Col xs={4}><Image src={resultado} /></Col>
-        <Col><Image src={CTO} /></Col>
+        <Col ><Image src={patriocinio} width={300} />  </Col>
+        <Col xs={4}><Image src={resultado} width={300}/></Col>
+        <Col><Image src={CTO} width={300}/></Col>
       </Row>
       <Row>
-        <Col><Image src={CTO} /></Col>
-        <Col xs><Image src={resultado} /></Col>
-        <Col><Image src={patriocinio} /></Col>
+        <Col><Image src={CTO} width={300}/></Col>
+        <Col xs><Image src={resultado}width={300} /></Col>
+        <Col><Image src={patriocinio}width={300} /></Col>
       </Row>
 
     </Container>
