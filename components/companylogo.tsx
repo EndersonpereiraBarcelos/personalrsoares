@@ -45,7 +45,7 @@ export default function ColumnsGrid() {
       <Grid container spacing={2} columns={16}>
         <Grid>
           <Item>
-            <Image src={FotoBanner}  width={1480} height={200}/>
+            <Image src={FotoBanner}  width={1480} height={200} alt="foto"/>
           </Item>
         </Grid>
       </Grid>

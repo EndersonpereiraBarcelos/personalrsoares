@@ -105,7 +105,7 @@ export default function ColumnsGrid() {
         <Grid item xs={8}>
           <Item>
             {" "}
-            <Image src={Foto1} height={460} width={330} />
+            <Image src={Foto1} height={460} width={330} alt="foto" />
           </Item>
         </Grid>
         <Grid item xs={8}>
