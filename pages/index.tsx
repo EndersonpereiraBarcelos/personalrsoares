@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import GlobalStyle from "../styles/globals";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Initial from "../components/initial";
@@ -33,7 +34,7 @@ const Wrapper2 = styled.section`
 
 const Adjustment = styled.div`
   justify-content: right;
-  display: inline-block;
+  display: flex;
 `;
 import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -42,11 +43,11 @@ import { Container } from "@mui/material";
 
 export default function SimpleContainer() {
   return (
-    <>
-    <div className="Container">
+    <div className="container-fluid">
          <Wrapper>
            {/* <Companylogo /> */}
            <Adjustment>
+            <GlobalStyle/>
              <Initial />
            </Adjustment>
          </Wrapper>
@@ -55,9 +56,7 @@ export default function SimpleContainer() {
          </Wrapper2>
          <Doubt />
          <Plans />
-
     </div>
-    </>
     // <React.Fragment>
     //   <CssBaseline />
     //   <Container maxWidth="lg">
