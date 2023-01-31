@@ -9,7 +9,7 @@ import Button from "./button";
 import Foto1 from "../public/personalrsoares/ftinitial.png";
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#1b3e14",
+  backgroundColor: theme.palette.mode === "dark" ? "#0d1f0a" : "#0d1f0a",
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",
@@ -29,7 +29,7 @@ export default function ColumnsGrid() {
         <Grid item xs={8}>
           <Item>
             <h2>
-              Conquiste uma saúde digna e uma físico como sempre quis, através
+              Conquiste uma saúde digna e um físico de qualidade, através
               de um treino feito especificamente para você
             </h2>
             <p>
