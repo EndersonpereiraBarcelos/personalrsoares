@@ -9,7 +9,7 @@ import Button from "./button";
 import Foto1 from "../public/personalrsoares/ftinitial.png";
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "black",
+  backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#1b3e14",
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",
