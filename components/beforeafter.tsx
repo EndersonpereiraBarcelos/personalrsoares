@@ -29,7 +29,7 @@ export default function RowAndColumnSpacing() {
           <Item><Image src={professor}  width={300} alt="foto"/> </Item>
         </Grid>
         <Grid item xs={6}>
-          <Item><Image src={aluno01} width={300} alt="foto" /></Item>
+         
         </Grid>
         <Grid item xs={6}>
           <Item><Image src={aluno02} width={300} alt="foto" /></Item>
