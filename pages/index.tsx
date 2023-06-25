@@ -1,10 +1,8 @@
 import styled from "styled-components";
-// import GlobalStyle from "../styles/globals";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Initial from "../components/initial";
 import Aboutme from "../components/aboutme";
-// import Companylogo from "../components/companylogo";
 import Doubt from "./doubt";
 import Plans from "./plans";
 
