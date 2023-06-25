@@ -23,32 +23,32 @@
 
 // export default ContainerFluidExample;
 
-import * as React from "react";
-import { styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
+// import * as React from "react";
+// import { styled } from "@mui/material/styles";
+// import Box from "@mui/material/Box";
+// import Paper from "@mui/material/Paper";
+// import Grid from "@mui/material/Grid";
 
-import Image from "next/image";
-import FotoBanner from "../public/personalrsoares/banner01.png";
+// import Image from "next/image";
+// import FotoBanner from "../public/personalrsoares/banner01.png";
 
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
+// const Item = styled(Paper)(({ theme }) => ({
+//   ...theme.typography.body2,
+//   padding: theme.spacing(1),
+//   textAlign: "center",
+//   color: theme.palette.text.secondary,
+// }));
 
-export default function ColumnsGrid() {
-  return (
-    <Box sx={{ flexGrow: 1 }}>
-      <Grid container spacing={2} columns={16}>
-        <Grid>
-          <Item>
-            <Image src={FotoBanner}  width={1480} height={200} alt="foto"/>
-          </Item>
-        </Grid>
-      </Grid>
-    </Box>
-  );
-}
+// export default function ColumnsGrid() {
+//   return (
+//     <Box sx={{ flexGrow: 1 }}>
+//       <Grid container spacing={2} columns={16}>
+//         <Grid>
+//           <Item>
+//             <Image src={FotoBanner}  width={1480} height={200} alt="foto"/>
+//           </Item>
+//         </Grid>
+//       </Grid>
+//     </Box>
+//   );
+// }

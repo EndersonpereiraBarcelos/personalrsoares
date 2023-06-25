@@ -29,7 +29,7 @@ export default function RowAndColumnSpacing() {
           <Item><Image src={professor}  width={300} alt="foto"/> </Item>
         </Grid>
         <Grid item xs={6}>
-         
+
         </Grid>
         <Grid item xs={6}>
           <Item><Image src={aluno02} width={300} alt="foto" /></Item>
@@ -44,8 +44,8 @@ export default function RowAndColumnSpacing() {
         <Grid item xs={6}>
           <Item><Image src={aluno05} width={300} alt="foto"/></Item>
         </Grid>
-        
-        
+
+
       </Grid>
     </Box>
   );
@@ -57,7 +57,7 @@ export default function RowAndColumnSpacing() {
 // import Col from 'react-bootstrap/Col';
 
 // function AutoLayoutSizingExample() {
-//   return ( 
+//   return (
 //     <Container>
 //       <Row>
 //         <Col ><Image src={professor}  width={300} alt="foto"/> </Col>

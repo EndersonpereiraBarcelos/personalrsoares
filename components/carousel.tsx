@@ -24,12 +24,12 @@ export default ContainerExample; */
 //   return (
 //     <Container>
 //       <Row>
-        
+
 //         <Col xs={4}><Image src={resultado} width={300} alt="foto"/></Col>
 //         <Col><Image src={CTO} width={300}alt="foto"/></Col>
 //       </Row>
 //       <Row>
-        
+
 //       </Row>
 
 //     </Container>

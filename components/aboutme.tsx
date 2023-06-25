@@ -113,7 +113,7 @@ export default function ColumnsGrid() {
             {" "}
             <h2>Sobre mim</h2>
             <p>
-              OOlá, sou Ricardo Sales Soares, professor de educação física na
+              Olá, sou Ricardo Sales Soares, professor de educação física na
               área de bacharel, atuo há mais de 5 anos com treinamento de
               musculação e outros, ajudo pessoas quaisquer a conquistarem seus
               objetivos através do treinamento, isso inclui, saúde e bem estar,

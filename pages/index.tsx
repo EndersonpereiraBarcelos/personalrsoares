@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import GlobalStyle from "../styles/globals";
+// import GlobalStyle from "../styles/globals";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import Initial from "../components/initial";
 import Aboutme from "../components/aboutme";
-import Companylogo from "../components/companylogo";
+// import Companylogo from "../components/companylogo";
 import Doubt from "./doubt";
 import Plans from "./plans";
 
@@ -43,11 +43,12 @@ import { Container } from "@mui/material";
 
 export default function SimpleContainer() {
   return (
+    <div>
+
     <div className="container-fluid">
          <Wrapper>
            {/* <Companylogo /> */}
            <Adjustment>
-            <GlobalStyle/>
              <Initial />
            </Adjustment>
          </Wrapper>
@@ -56,6 +57,7 @@ export default function SimpleContainer() {
          </Wrapper2>
          <Doubt />
          <Plans />
+    </div>
     </div>
     // <React.Fragment>
     //   <CssBaseline />
