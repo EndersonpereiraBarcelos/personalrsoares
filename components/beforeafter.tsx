@@ -26,52 +26,19 @@ export default function RowAndColumnSpacing() {
     <Box sx={{ width: '100%' }}>
       <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         <Grid item xs={6}>
-          <Item><Image src={professor}  width={300} alt="foto"/> </Item>
-        </Grid>
-        <Grid item xs={6}>
-
-        </Grid>
-        <Grid item xs={6}>
           <Item><Image src={aluno02} width={300} alt="foto" /></Item>
         </Grid>
         <Grid item xs={6}>
-          <Item><Image src={aluno03} width={300}  alt="foto"/> </Item>
-        </Grid>
-
-        <Grid item xs={6}>
-          <Item><Image src={aluno04} width={300} alt="foto"/></Item>
+          <Item><Image src={aluno03} width={300} alt="foto" /></Item>
         </Grid>
         <Grid item xs={6}>
-          <Item><Image src={aluno05} width={300} alt="foto"/></Item>
+          <Item><Image src={aluno04} width={300} alt="foto" /></Item>
         </Grid>
-
-
+        <Grid item xs={6}>
+          <Item><Image src={professor} width={300} alt="foto" /></Item>
+        </Grid>
       </Grid>
     </Box>
   );
 }
-
-
-// import Container from 'react-bootstrap/Container';
-// import Row from 'react-bootstrap/Row';
-// import Col from 'react-bootstrap/Col';
-
-// function AutoLayoutSizingExample() {
-//   return (
-//     <Container>
-//       <Row>
-//         <Col ><Image src={professor}  width={300} alt="foto"/> </Col>
-//         <Col xs={4}><Image src={aluno01} width={300} alt="foto" /></Col>
-//         <Col><Image src={aluno02} width={300} alt="foto" /></Col>
-//       </Row>
-//       <Row>
-//         <Col><Image src={aluno03} width={300}  alt="foto"/></Col>
-//         <Col xs><Image src={aluno04} width={300} alt="foto"/></Col>
-//         <Col><Image src={aluno05} width={300} alt="foto"/></Col>
-//       </Row>
-//     </Container>
-//   );
-// }
-
-// export default AutoLayoutSizingExample;
 

@@ -18,7 +18,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export default function ColumnsGrid() {
   return (
-    <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{ width: "100%" }}>
       <Grid container spacing={2} columns={16}>
         <Grid item xs={8}>
           <Item>
