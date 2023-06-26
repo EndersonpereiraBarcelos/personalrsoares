@@ -41,7 +41,6 @@ export default function ColumnsGrid() {
               saúde , estética e qualidade de vida, acessando resultados que
               jamais vistos.
             </p>
-            <Button />
           </Item>
         </Grid>
       </Grid>

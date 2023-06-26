@@ -1,9 +1,6 @@
 import aluno01 from "../public/antesdepois/aluno01.png"
 import aluno02 from "../public/antesdepois/aluno02.png"
-import aluno03 from "../public/antesdepois/aluno03.png"
 import aluno04 from "../public/antesdepois/aluno04.png"
-import aluno05 from "../public/antesdepois/aluno05.png"
-import aluno06 from "../public/antesdepois/aluno06.png"
 import professor from "../public/antesdepois/professor.png"
 import Image from "next/image";
 
@@ -29,7 +26,7 @@ export default function RowAndColumnSpacing() {
           <Item><Image src={aluno02} width={300} alt="foto" /></Item>
         </Grid>
         <Grid item xs={6}>
-          <Item><Image src={aluno03} width={300} alt="foto" /></Item>
+          <Item><Image src={aluno01} width={300} alt="foto" /></Item>
         </Grid>
         <Grid item xs={6}>
           <Item><Image src={aluno04} width={300} alt="foto" /></Item>
